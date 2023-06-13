@@ -16,7 +16,7 @@ public class SlmExampleController {
             return 0;
         }
     }
-    @RequestMapping
+    @RequestMapping("/api/hamming")
     public int calculateHammingWeight(@RequestParam String inputString) {
         if (inputString.isEmpty()) {
             previousString = null;
