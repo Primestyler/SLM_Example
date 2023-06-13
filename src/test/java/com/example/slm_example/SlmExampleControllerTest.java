@@ -5,9 +5,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SlmExampleControllerTest {
-    SlmExampleController s=new SlmExampleController()
+    SlmExampleController s = new SlmExampleController();
+
     @Test
-    public void testGetPreviousString_NoPreviousInput_ReturnsZero() {
+    public void testGetPreviousString() {
         // Arrange
         int expected = 0;
 
